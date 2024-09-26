@@ -1,0 +1,143 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    background-color: var(--beige);
+}
+
+:root {
+    --beige: #efeee3;
+    /*--beige: #f2f2e3;*/
+    --black: #000000;
+    --green: #71a281;
+    --white: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+}
+
+.logo {
+    width: 35%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.slide {
+    width: 70%;
+    height: 60%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 0;
+}
+
+.locations {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.location {
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--black);
+}
+
+.location-button {
+    background-color: transparent;
+    border: 2px solid var(--green);
+    color: var(--green);
+    padding: 10px 20px;
+    font-size: 1.8rem;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.location-button:hover {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.location-logo,
+.michelin-logo {
+    width: 300px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.quote {
+    font-size: 2rem;
+    font-style: italic;
+    color: var(--black);
+}
+
+.press-inquiries-button {
+    background-color: var(--green);
+    color: var(--white);
+    padding: 10px 20px;
+    font-size: 1.8rem;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 40px;
+}
+
+.press-inquiries-button:hover {
+    background-color: #8bc9a3;
+    /* Slightly brighter green */
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-container iframe {
+    border-radius: 10px;
+}
+
+.press-list p {
+    color: var(--green);
+}
+
+.press-images {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+}
+
+.press-list ul {
+    list-style-type: none;
+    color: var(--green);
+    font-size: 1.6rem;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.press-list ul li {
+    margin-bottom: 3.4rem;
+}
+
+.video-container {
+    width: 1048px;
+    height: 670px;
+    align-items: center;
+}
